@@ -1,0 +1,18 @@
+{
+    "box_type": "packeratorwindows10enterprise.windows10enterprisebox.Windows10EnterpriseBox",
+    "machine_type": "packeratorwindows10enterprise.windows10enterprisemachine.Windows10EnterpriseMachine",
+    "description": "Generic Windows 10 Enterprise Packerator template",
+    "imports": [
+        "http::https://github.com/labmonkey42/packerator-windows10/blob/development/windows10.json"
+    ],
+    "machine_image_name": "Windows 10 Enterprise",
+    "builders":
+    {
+        "global_settings":
+        {
+            "iso_url": "http://care.dlservice.microsoft.com/dl/download/B/8/B/B8B452EC-DD2D-4A8F-A88C-D2180C177624/15063.0.170317-1834.RS2_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO",
+            "iso_checksum_type": "sha1",
+            "iso_checksum": "6c60f91bf0ad7b20f469ab8f80863035c517f34f"
+        }
+    }
+}

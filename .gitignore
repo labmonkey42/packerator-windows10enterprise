@@ -1,0 +1,15 @@
+*.egg
+*.egg-infoInclude
+.hypothesis
+.vscode
+Lib
+PKG-INFO
+Scripts
+dist
+*.pyc
+dependency_links.txt
+entry_points.txt
+pip-selfcheck.json
+pyvenv.cfg
+SOURCES.txt
+top_level.txt
