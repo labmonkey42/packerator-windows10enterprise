@@ -3,7 +3,7 @@
     "machine_type": "packeratorwindows10enterprise.windows10enterprisemachine.Windows10EnterpriseMachine",
     "description": "Generic Windows 10 Enterprise Packerator template",
     "imports": [
-        "http::https://github.com/labmonkey42/packerator-windows10/blob/development/windows10.json"
+        "http::https://github.com/labmonkey42/packerator-windows10/blob/development/Windows10.json"
     ],
     "machine_image_name": "Windows 10 Enterprise",
     "builders":
