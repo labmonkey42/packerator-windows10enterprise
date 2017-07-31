@@ -5,7 +5,7 @@
     "imports": [
         "http::https://raw.githubusercontent.com/labmonkey42/packerator-windows10/development/Windows10.json"
     ],
-    "machine_image_name": "Windows 10 Enterprise",
+    "machine_image_name": "Windows 10 Enterprise Evaluation",
     "builders":
     {
         "global_settings":
